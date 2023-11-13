@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta name="viewport"content="width=device-width,initial-scale=1.0">
+  <style>
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:active {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+ #mydiv{
+      width:400px;
+      height:100px;
+      animation:mymove 5s infinite;
+      color:brown;
+    }
+    
+    @keyframes mymove {
+      50%{font-size:40px;}
+    }
+  * {
+    box-sizing: border-box;
+    background-color:#f1f1f1;
+  }
+  
+  .column {
+    float: left;
+    width:33.33%;
+    padding:2px;
+    border:2px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    border:2px;
+    
+  }
+
+  #borderimg1{
+    border:5px solid black;
+    padding:"";
+    border-image:url(border-webp)50 round;
+  }
+
+  #borderimg2{
+    border:5px solid black;
+    padding:"";
+    border-image:url(border-jpeg)50 round;
+  }
+  #borderimg3{
+    border:5px solid black;
+    padding:"";
+    border-image: url(border-webp) 50 round;
+
+  }
+  </style>
+  </head>
+ 
+    
+  <body>
+    <ul>
+      <li><a href="project 500clipa.html"class=active>Home</a></li>
+      <li><a href="molecules.html" target="_blank">Molecules</a></li>
+      <li><a href="importances.html "target="_blank">Importances</a></li>
+      <li><a href="Uses.html">Uses</a></li>
+      <li style="float:right"><a class="active" href="downloadlnk.html">download Link</a></li>
+  
+    </ul>
+
+    <marquee width="150%"direction="right"height="120%"  >
+      <div id="mydiv">
+     <p><b>This is about one of the uses of water molecules"hydrogen"</b></p>
+    </marquee>
+    </div>
+    
+    <p><strong>Water </strong> a chemical compound composed of two hydrogen atoms and one oxygen atom. It is a polar molecule, meaning that it has a partial positive charge on the hydrogen atoms and a partial negative charge on the oxygen atom.</p>
+    
+      
+    <video 
+    
+      width="1100" height="400" controls>
+    <source src="Water Molecules - part 1.mp4"
+    type="video/mp4">
+   
+
+    </video>
+
+
+    <h1>uses of one of the water molecules</h1>
+
+     <div class="row">
+        <div class="column">
+            
+          <img src="industries hydro.webp" alt="industries"  width="400px",height="100px" id="borderimg1" >
+          <h2>hydrogen used in industries</h2>
+          <ul>
+
+          <p ><li>Producing ammonia for fertilizers in agricultural/chemical industry</li>
+          </p>
+          </ul>
+        </div>
+        <div class="column">
+            
+          <img src="solor.jpeg" alt="solor" width="400px",height="200" id="borderimg2">
+          <h2>hydrogen use in solor</h2>
+          <ul>
+          <p><li>Solar energy can be used to generate heat for a wide variety of industrial applications, including water desalination, food processing, chemical production, among many others.</li></p>
+        </ul>
+        </div>
+        <div class="column">
+            
+          <img src="cars hydro.webp" alt="cars" width="400px",height="100px" id="borderimg3">
+          <h2>hydrogen use in cars</h2>
+          <ul>
+            <p><li>Cars that run on hydrogen are electric cars that use hydrogen gas as a fuel source</li></p>
+          </ul>
+        </div>
+    
+      
+
+    
+  </body>
+</html>
+
+
+
+

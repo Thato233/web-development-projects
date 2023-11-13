@@ -1,0 +1,51 @@
+ 
+
+  .parallax {
+/* The image used */
+background-image: url("rp.gif");
+
+/* Set a specific height */
+min-height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+
+body{
+    background-image:url("rf.gif") ;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active){
+    background-color:black;
+  }
+  
+  .active{
+    background-color:green ;
+  }
+  
+
+
