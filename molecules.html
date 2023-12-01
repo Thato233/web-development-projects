@@ -2,12 +2,14 @@
 <html>
  <head> 
   <meta name="viewport"content="width=device-width,initial-scale=1.0">
+  
   <style>
   ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: #333;
   
 }
 
@@ -29,25 +31,16 @@ li a {
 }
 
 li a:hover:active {
-  background-color: #111;
+  background-color:black;
 }
 
 .active {
   background-color: #04AA6D;
 }
- #mydiv{
-      width:400px;
-      height:100px;
-      animation:mymove 5s infinite;
-      color:brown;
-    }
-    
-    @keyframes mymove {
-      50%{font-size:40px;}
-    }
+ 
   * {
     box-sizing: border-box;
-    background-color:#f1f1f1;
+    
   }
   
   .column {
@@ -65,6 +58,22 @@ li a:hover:active {
     border:2px;
     
   }
+  .header{
+      padding:25px;
+      text-align:center;
+      color: #f1f1f1;
+      font-size:36px;
+
+  }
+  
+
+  p{
+    text-align: center;
+    font-size:26px;
+    font-family:'Times New Roman', Times, serif;
+    
+  }
+  
 
   #borderimg1{
     border:5px solid black;
@@ -83,29 +92,43 @@ li a:hover:active {
     border-image: url(border-webp) 50 round;
 
   }
+
+  ul.a{
+    list-style-type:circle;
+  }
+  
+  p{
+    color:black;
+  text-shadow: 2px 2px 4px #000000;
+  }
+  
+  
+
   </style>
   </head>
  
     
   <body>
-    <ul>
-      <li><a href="project 500clipa.html"class=active>Home</a></li>
-      <li><a href="molecules.html" target="_blank">Molecules</a></li>
-      <li><a href="importances.html "target="_blank">Importances</a></li>
-      <li><a href="Uses.html">Uses</a></li>
-      <li style="float:right"><a class="active" href="downloadlnk.html">download Link</a></li>
-  
+    
+  <ul>
+    <li><a href="project 500clipa.html"class=active>Home</a></li>
+    <li><a href="molecules.html" target="_blank">Molecules</a></li>
+    <li><a href="importances.html "target="_blank">Importances</a></li>
+    <li><a href="Uses.html">Uses</a></li>
+    <li style="float:right"><a class="active" href="Contact.html">Contact </a></li>
+    <li><a href="downloadlnk.html">Portfolio</a></li>
+     
     </ul>
 
-    <marquee width="150%"direction="right"height="120%"  >
-      <div id="mydiv">
-     <p><b>This is about one of the uses of water molecules"hydrogen"</b></p>
-    </marquee>
-    </div>
-    
-    <p><strong>Water </strong> a chemical compound composed of two hydrogen atoms and one oxygen atom. It is a polar molecule, meaning that it has a partial positive charge on the hydrogen atoms and a partial negative charge on the oxygen atom.</p>
     
       
+     <p><b>This is about one of the uses of water molecules"hydrogen"</b></p>
+    
+    </div>
+    
+    <p><strong>Water: </strong> a chemical compound composed of two hydrogen atoms and one oxygen atom.It is a polar molecule,meaning that<br> it has a partial positive charge on the hydrogen atoms and a partial negative charge on the oxygen atom.</p>
+    
+    <center> 
     <video 
     
       width="1100" height="400" controls>
@@ -114,7 +137,7 @@ li a:hover:active {
    
 
     </video>
-
+    </center>
 
     <h1>uses of one of the water molecules</h1>
 
@@ -123,27 +146,27 @@ li a:hover:active {
             
           <img src="industries hydro.webp" alt="industries"  width="400px",height="100px" id="borderimg1" >
           <h2>hydrogen used in industries</h2>
-          <ul>
+          <ul.a>
 
           <p ><li>Producing ammonia for fertilizers in agricultural/chemical industry</li>
           </p>
-          </ul>
+          </ul.a>
         </div>
         <div class="column">
             
           <img src="solor.jpeg" alt="solor" width="400px",height="200" id="borderimg2">
           <h2>hydrogen use in solor</h2>
-          <ul>
+          <ul.a>
           <p><li>Solar energy can be used to generate heat for a wide variety of industrial applications, including water desalination, food processing, chemical production, among many others.</li></p>
-        </ul>
+        </ul.a>
         </div>
         <div class="column">
             
           <img src="cars hydro.webp" alt="cars" width="400px",height="100px" id="borderimg3">
           <h2>hydrogen use in cars</h2>
-          <ul>
+          <ul.a>
             <p><li>Cars that run on hydrogen are electric cars that use hydrogen gas as a fuel source</li></p>
-          </ul>
+          </ul.a>
         </div>
     
       
